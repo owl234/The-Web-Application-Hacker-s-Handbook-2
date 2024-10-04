@@ -1,4 +1,4 @@
-# 04 第一章 Web应用（不）安全性
+#  第一章 Web应用（不）安全性
 
 毫无疑问，网络应用程序安全性是一个当前热门且备受关注的话题。对于所有相关方来说，风险都非常高：对于依赖互联网商务增加收入的企业，对于信任网络应用程序处理敏感信息的个人用户，以及那些通过窃取支付信息或入侵银行账户牟取暴利的犯罪分子而言，更是如此。声誉在其中扮演着至关重要的角色。很少有人愿意与一个不安全的网站进行交易，因此很少有组织愿意公开自己的安全漏洞或数据泄露事件。因此，要获得关于当前网络应用程序安全状况的可靠信息并非易事。
 
@@ -8,13 +8,13 @@
 
 互联网早期，万维网仅由网站组成。这些网站本质上是包含静态文档的信息仓库。网页浏览器被发明出来用于检索和显示这些文档，如图1-1所示。信息的流动是单向的，从服务器到浏览器。大多数网站不需要进行用户认证，因为没有必要。每个用户都被同等对待，并呈现相同的信息。与托管网站相关的任何安全威胁主要与web服务器软件的漏洞有关（其中有很多）。如果攻击者入侵了web服务器，通常不会获得任何敏感信息，因为服务器上的信息已经公开可见。相反，攻击者通常会修改服务器上的文件来篡改网站内容，或利用服务器的存储和带宽分发“盗版软件”。
 
-![](https://github.com/owl234/Awesome-SRC-experience/blob/main/img/00%20Dafydd%20Stuttard,%20Marcus%20Pinto%20-%20The%20Web%20Application%20Hacker's%20Handbook_%20finding%20and%20exploiting%20security%20flaws-Wiley%20(2011).jpg)
+![](./img/00%20Dafydd%20Stuttard,%20Marcus%20Pinto%20-%20The%20Web%20Application%20Hacker's%20Handbook_%20finding%20and%20exploiting%20security%20flaws-Wiley%20(2011).jpg)
 
 图1-1：传统只包含静态信息的网站
 
 今天，万维网与早期的形态几乎完全不同。网络上的大多数站点实际上都是应用程序（见图1-2）。它们功能强大，依赖于服务器和浏览器之间的双向信息流。它们支持注册和登录、金融交易、搜索、以及用户生成内容。呈现给用户的内容是动态生成的，并且经常为每个特定的用户量身定制。处理的大部分信息都是私密且高度敏感的。因此，安全是一个大问题。如果有人认为自己的信息会被泄露给未经授权的一方，那么没有人会愿意使用一个网络应用程序。
 
-![](https://github.com/owl234/Awesome-SRC-experience/blob/main/img/00%20Dafydd%20Stuttard,%20Marcus%20Pinto%20-%20The%20Web%20Application%20Hacker's%20Handbook_%20finding%20and%20exploiting%20security%20flaws-Wiley%20(2011)1.jpg)
+![](./img/00%20Dafydd%20Stuttard,%20Marcus%20Pinto%20-%20The%20Web%20Application%20Hacker's%20Handbook_%20finding%20and%20exploiting%20security%20flaws-Wiley%20(2011)1.jpg)
 
 图1-2：典型的Web应用
 
@@ -105,7 +105,7 @@
 
 - **跨站请求伪造（92%）**- 此缺陷意味着应用程序用户可以被诱导在它们的用户上下文和权限级别上执行非预期操作。该漏洞允许恶意网站访问受害者用户并与应用程序交互，执行用户无意执行的操作。
 
-![](https://github.com/owl234/Awesome-SRC-experience/blob/main/img/Snipaste_2024-08-05_16-48-45.jpg)
+![](./img/Snipaste_2024-08-05_16-48-45.jpg)
 
 > 图1-3 ：作者最近测试的一百多个应用程序，一些常见Web应用程序漏洞的发生率如上所示。
 
