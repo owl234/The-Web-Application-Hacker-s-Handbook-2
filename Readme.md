@@ -12,7 +12,7 @@ The Web Application Hacker's Handbook 2 (Web应用黑客手册第二版)，英�
 
 ## 翻译进度
 
-第四章：应用程序映射
+第四章：应用程序攻击面映射
 
 ## Star History
 
