@@ -12,7 +12,7 @@ The Web Application Hacker's Handbook 2 (Web应用黑客手册第二版)，英�
 
 ## 翻译进度
 
-第五章：绕过客户端验证
+第七章：攻击会话管理
 
 ## Star History
 
